@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
 }
 header{
- padding: 10px;
+
 height: 50vh;
 width: 100vw;
 background-color: rgba(0, 0, 0, 0.6);
@@ -54,9 +54,10 @@ display: flex;
 flex-direction: column;
 background-color: rgb(0, 0, 0);
 position: absolute;
-width: 100vw;
+width: 98vw;
 top: -1000px;
 left: 0px;
+right: 0px;
 transition-property: top;
 transition-duration: 1s;
  transition-timing-function: ease-in;
