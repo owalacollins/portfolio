@@ -1,0 +1,207 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+body{
+    background-image:url(images/image2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+header{
+   padding: 10px;
+height: 50vh;
+width: 100vw;
+background-color: rgba(0, 0, 0, 0.6);
+}
+header img{
+    height: 200px;
+    width:200px;
+    display: block;
+     margin: 30px auto;
+     border-radius: 50%;
+     border: 1px green solid;
+
+}
+h2{
+    color: rgb(28, 210, 255);
+    text-align: center;
+    font-family: 'Tiro Devanagari Hindi', serif;
+
+}
+nav{
+    background-color: rgb(2, 2, 2);
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Tiro Tamil', serif;
+    position: relative;
+}
+
+
+nav ul li ul{
+display: flex;
+flex-direction: column;
+background-color: rgb(0, 0, 0);
+position: absolute;
+width: 100vw;
+top: -1000px;
+left: 0px;
+transition-property: top;
+transition-duration: 1s;
+ transition-timing-function: ease-in;
+}
+nav ul li ul li{
+    padding: 10vw;
+    color: black;
+    text-align: center;
+    
+}
+li a{
+    display: block;
+}
+li a :hover{
+    background-color: cornflowerblue;
+}
+nav ul li :hover ul{
+    top: 33px;
+}
+ul li ul li i{
+    color: rgb(255, 255, 255);
+    
+}
+/* HEADING---------------X-------------X-------------*/
+
+.links{
+    width: 100vw;
+   margin: 10px 0;
+   background-color: rgba(2, 2, 2, 0.6);
+}
+span ,a{
+    color: rgb(255, 255, 255);
+    font-family: 'Tiro Tamil', serif;
+    text-decoration: none;
+    font-style: italic;
+}
+.links i{
+    color: aqua;
+    padding: 20px;
+}
+/*_-------------x footer--------------------x-----------*/
+
+footer{
+    background-color: black;
+    height: 20vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer i{
+    color: chartreuse;
+    font-size: 8vw;
+}
+.bio{
+    background-color: rgb(94, 92, 92);
+    color: white;
+    height: 40px;
+    padding: 10px;
+}
+.bio h5{
+    text-align: center;
+    
+}
+/* ---------------------galery----------------*/
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    background-color: black;
+}
+.call-grid{
+    flex: 10%;
+    max-width: 50%;
+    padding: 0px 5px;
+}
+.call-grid img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/*
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+.call-grid{
+    flex: 15%;
+    max-width: 25%;
+    padding: 0px 5px;
+}
+.call-grid img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+*/
+.display{
+    overflow: auto;
+    margin: 20px; 
+}
+figure{
+    position: relative;
+    width: 1000%;
+    margin: 0;
+    left: 0;
+}
+figure img{
+    width: 10%;
+    float: left;
+    height: 300px;
+    border: 2px white solid;
+   
+}
+h4 i{
+    
+    padding: 20px;
+    text-align: center;
+  
+}
+h4{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: larger;
+}
+/*-----------------about----------------------*/
+
+label{
+    color: rgb(10, 226, 255);
+}
+label ,progress{
+    margin-left: 30px;
+}
+.links p{
+    color: rgb(158, 158, 158);
+   width: 90vw;
+   display: block;
+   margin: 0 auto;
+}
