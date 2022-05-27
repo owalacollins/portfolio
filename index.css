@@ -10,16 +10,16 @@ body{
     background-repeat: no-repeat;
 }
 header{
-   padding: 10px;
+ padding: 10px;
 height: 50vh;
 width: 100vw;
 background-color: rgba(0, 0, 0, 0.6);
 }
 header img{
-    height: 200px;
-    width:200px;
+    height: 20vh;
+    width:40vw;
     display: block;
-     margin: 30px auto;
+     margin: 5vw auto;
      border-radius: 50%;
      border: 1px green solid;
 
